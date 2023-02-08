@@ -1,0 +1,143 @@
+header{
+    display: flex;
+}
+.see{
+    margin-left: 90px;
+}
+.senn{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+  
+}
+.row-20{
+    font-size: 17px;
+    padding-left: 100px;
+}
+h5{
+   
+    margin-left: -50px;
+    margin-top: 15px;
+}
+.win-details{
+    display:flex;
+    list-style: none;
+}
+.win-details li{
+    margin-left:100px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .container {
+    position: relative;
+  }
+
+  
+  .text-block {
+    position: absolute;
+    bottom: 220px;
+    right: 240px;
+    
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .btn-1{
+    background-color: #0067b8;
+    color:white;
+    border-color: #0067b8;
+    height: 40px;
+  }
+  .the{
+    margin-left:40px ;
+  }
+  .fac{
+    height: 40px;
+    width: 40px;
+  }
+  .row-100{
+    background-color: #f2f2f2;
+    height: 390px;
+    width: auto;
+  }
+  .try li{
+    list-style: none;
+    font-size:12px;
+  
+    padding-left: 30px;
+  }
+ .div-try {
+  display: flex;
+
+ }
+ .div-5{
+  list-style: none;
+  font-size: 100px;
+    font-size:10px;
+    margin-left:100px
+  }
+  .saw{
+    display: flex;
+  }
+  .text-block-1{
+    position: absolute;
+    bottom: 220px;
+    right: 240px;
+    
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .sure{
+position: absolute;
+margin-top: -335px;
+    margin-left: 92px;
+  }
+  .sure1{
+margin-top: -280px;
+  }
+  .xboxbg{
+    background-image: url("dj.avif");
+    width: 100%;
+    height: 550px;
+  }
+  .content{
+    color: black;
+    margin-left: 200px;
+    padding-top: 230px;
+  }
+  .btn-3{
+  background-color: #0067b8;
+  border-color: #0067b8;
+  color: #f2f2f2;
+  }
+   @media (min-width:800px) and (max-width:1500px){
+    .xboxbg {
+      width:80%;
+    }
+  }
+  @media (min-width:0) and (max-width:800px){
+    .xboxbg {
+      display: none;
+    }
+    .win-details {
+      display: none;
+    }
+    .div-try {
+      display:none;
+    } 
+   
+    .backg {
+      display:none;
+    } 
+   }
+  .backg{
+    background-image: url("bg1.avif");
+    width: 100%;
+    height: 550px; 
+   
+  }  
+  
